@@ -1,0 +1,12 @@
+/*!
+ * tsa
+ * organization: AI2C
+ */
+
+@import "factory-style.css";
+
+/* general page styling */
+body {
+    background: var(--gray-5);
+    margin: 0;
+}

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}tsa{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <nav>
+            <h1>TSA</h1>
+            <h3>Telemarketing Support App</h3>
+            <img href="{% static 'img/factory_logo.png' %}">
+            <a>Marketing Prediction</a>
+            <a>Computer Vision</a>
+            <a>Natural Language Processing</a>
+        </nav>
+        {% block content %}{% endblock %}
+    </body>
+</html>
